@@ -4,7 +4,7 @@ import sys
 key = "2d5563ed288ac5396add9b78fbca810b"
 # this the the campaign key is from decoded resource segment
 # "2d5563ed288ac5396add9b78fbca810b" == md5("trees")
-# If decoding does not work, run decodeResourceSegment.py on your sample of Kovter 
+# If decoding does not work, run DecodeResourceSegment.py on your sample of Kovter 
 #  to make sure the campaign key is the 2d5563ed288ac5396add9b78fbca810b
 
 
@@ -36,8 +36,8 @@ def decode2(buf, key):
 
 	return "".join([chr(x) for x in buf])
 
-print "decodeRegistryStrs.py"
-print "This will decode the base64 encoded registry values in HKCU\Software\UniqueComputerNmae"
+print "DecodeRegistryStrings.py"
+print "This will decode the Base64 encoded registry values in HKCU\Software\UniqueComputerName"
 print "Usage: %s [path of file containing the encoded value]" % sys.argv[0]
 
 

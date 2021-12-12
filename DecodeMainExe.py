@@ -2,7 +2,7 @@ import sys
 import aplib
 import struct
 
-print "decodeMainExe.py"
+print "DecodeMainExe.py"
 print "This will decode the main.exe executable in the Chrome directory."
 print "Note that the actual name of the file will vary from computer to computer."
 print "Usage: %s [path to main.exe exectuable] [path to write decoded executable]" % sys.argv[0]
